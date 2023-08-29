@@ -45,9 +45,10 @@ header {
 .class-tabela {
   border: 1px solid black;
   width: auto;
+  margin: auto;
 }
 
-.forno-fogao {
+.container {
   border: 1px solid pink;
 
 }
