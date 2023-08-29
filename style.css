@@ -40,3 +40,20 @@ header {
   border-radius: 5px;
   padding: 5px;
 }
+
+
+.class-tabela {
+  border: 1px solid black;
+  width: auto;
+}
+
+.forno-fogao {
+  border: 1px solid pink;
+
+}
+
+
+td {
+  border: 1px solid black;
+
+}
