@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+* {
+
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+header {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 2px 20px 20px 2px;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 3px 6px black;
+}
+
+#lista-do-menu {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+
+.link-a:hover {
+  background: red;
+}
+
+.link-a {
+  text-decoration: none;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 5px;
+}
