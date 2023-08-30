@@ -35,8 +35,9 @@ header {
 
 }
 
-.link-a:hover {
+div ul img:hover {
   background: red;
+
 }
 
 .link-a {
@@ -44,6 +45,7 @@ header {
   font-weight: 800;
   border-radius: 5px;
   padding: 5px;
+
 }
 
 
@@ -82,4 +84,10 @@ footer {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 10px;
   border-top: 10px;
+}
+
+div ul img {
+  width: 50px;
+
+
 }
