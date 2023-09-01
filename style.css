@@ -22,6 +22,7 @@ header {
   width: 100%;
   height: auto;
   box-shadow: 0px 3px 6px black;
+  padding-bottom: 100px;
 }
 
 #lista-do-menu {
@@ -30,13 +31,14 @@ header {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  margin-top: 20px;
+  margin: auto;
 
 
 }
 
 div ul img:hover {
   background: red;
+
 
 }
 
@@ -88,6 +90,31 @@ footer {
 
 div ul img {
   width: 50px;
+  border-radius: 50%;
+
+}
 
 
+#fechar {
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  top: 10px;
+  left: 25px;
+  width: 50px;
+
+}
+
+
+#div-menu {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: auto;
+  min-width: 300px;
+  border: 1px solid red;
+  width: 100%;
+  position: absolute;
 }
