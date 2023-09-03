@@ -69,3 +69,9 @@ td {
 caption {
   margin-top: 20px;
 }
+
+
+footer {
+  background-color: gray;
+  text-align: center;
+}
